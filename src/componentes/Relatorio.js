@@ -126,7 +126,6 @@ export default function Relatorio() {
     fs.writeFileSync("../data/CRUZAMENTO_DE_DADOS_BITIX_E_SAB.xlsx", xls, 'binary')
     })
   }*/
-
   return (
     <div>
       <Inputs type="date" value={periodoInicial} onChange={handleData} />
