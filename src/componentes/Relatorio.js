@@ -121,12 +121,6 @@ export default function Relatorio() {
     }
   };
 
- /* const teste = () =>{
-    let xls = json2xls(filtroPropostas);
-    fs.writeFileSync("../data/CRUZAMENTO_DE_DADOS_BITIX_E_SAB.xlsx", xls, 'binary')
-    })
-  }*/
-
   return (
     <div>
       <Inputs type="date" value={periodoInicial} onChange={handleData} />
