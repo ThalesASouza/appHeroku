@@ -1,0 +1,26 @@
+.flexRow {
+  display: flex;
+}
+
+tbody {
+  border: 1px solid;
+}
+
+.colunaPadrao {
+  width: 11%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.colunaNome {
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.8em;
+}
+.colunaSequencia {
+  width: 10%;
+  text-align: center;
+  font-size: 0.8em;
+}

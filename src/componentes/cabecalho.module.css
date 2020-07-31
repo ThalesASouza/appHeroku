@@ -1,0 +1,20 @@
+.ul{
+    background: green;
+    padding: 9px;
+}
+
+.ul li{
+    display: inline;
+    background: green;
+    padding: 10px;
+}
+
+.ul li a{
+   text-decoration: none;
+   color: white;   
+   padding: 10px;
+}
+.ul li:hover{
+   background: greenyellow;
+  
+ }

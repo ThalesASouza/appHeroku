@@ -1,0 +1,15 @@
+.disable{
+    background:#9F9F9F ;
+    pointer-events: none;
+    color:white;
+    border: 1px solid #9F9F9F ;
+}
+.enable{
+    pointer-events: all;
+    color:white;
+    border: 1px solid grey;
+}
+.disable:focus{
+    background:#9F9F9F ;
+   
+}
